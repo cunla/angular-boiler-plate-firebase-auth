@@ -32,7 +32,7 @@ const routes: Routes = [
     AngularFireAuthModule, // imports firebase/auth, only needed for auth features
     ReactiveFormsModule,
   ],
-  providers: [AuthService, UserService, UserResolver, AuthGuard],
+  providers: [AuthService, UserService, AuthGuard],
 })
 export class AuthModule {
 }
